@@ -1,6 +1,3 @@
-'''This script uses OpenCV's haarcascade (face and eye cascade) to detect face
-and eyes in a given input image.'''
-
 #Import necessary libraries
 import cv2 as cv
 import numpy as np
@@ -11,7 +8,7 @@ eye_cascade = cv.CascadeClassifier("haarcascades/haarcascade_eye.xml")
 
 #Read image in img and convert it to grayscale and store in gray.
 #Image is converted to grayscale, as face cascade doesn't require to operate on coloured images.
-img = cv.imread('images/test.jpeg')
+img = cv.imread('images/test3.jpg')
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 #Detect all faces in image.

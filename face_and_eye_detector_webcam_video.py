@@ -1,6 +1,3 @@
-'''This script uses OpenCV's haarcascade (face and eye cascade) to detect face
-and eyes in a video feed which can be inputted through a webcam.'''
-
 #Import necessary libraries
 import cv2 as cv
 import numpy as np
