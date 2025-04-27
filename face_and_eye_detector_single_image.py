@@ -8,7 +8,7 @@ eye_cascade = cv.CascadeClassifier("haarcascades/haarcascade_eye.xml")
 
 #Read image in img and convert it to grayscale and store in gray.
 #Image is converted to grayscale, as face cascade doesn't require to operate on coloured images.
-img = cv.imread('images/test3.jpg')
+img = cv.imread('images/test.jpeg')
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 #Detect all faces in image.
